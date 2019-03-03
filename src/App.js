@@ -5,20 +5,22 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            EN DESARROLLO
-          </p>
-          <a
-            className="App-link"
-            href="mailto:contact@patagoniaoils.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contact us
-          </a>
+      <div className="App container">
+        <header className="App-header row">
+          <div className="col-md-12">
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>
+              We're working on a better experience for you.
+            </p>
+            <a
+              className="App-link"
+              href="mailto:contact@patagoniaoils.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact us
+            </a>
+          </div>
         </header>
       </div>
     );
